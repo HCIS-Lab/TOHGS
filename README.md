@@ -3,7 +3,7 @@ Task-Oriented Human Grasp Synthesis via Context- and Task-Aware Diffusers
 ## Env info
 - Ubuntu 20.04
 - Pytorch 2.0.1
-- CUDA 11.8
+- CUDA 11.7
 - Python 3.8
 ```
 # create conda env
@@ -31,6 +31,6 @@ cmake --build build
 ```
 4. Install Pytorch3D
 ```
-pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py38_cu118_pyt201/download.html
+pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py38_cu117_pyt201/download.html
 ```
 
