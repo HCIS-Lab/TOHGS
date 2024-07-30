@@ -17,13 +17,14 @@ conda activate tohgs
 cd manopth
 pip install .
 ```
-2. Other Python packages
+2. Install Pytorch and Pytorch3D
+```
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py38_cu117_pyt201/download.html
+```
+3. Other Python packages
 ```
 pip install -r requirements.txt
-```
-3. Install Pytorch3D
-```
-pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py38_cu117_pyt201/download.html
 ```
 4. PointNet++
 ```
