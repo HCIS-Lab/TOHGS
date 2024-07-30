@@ -38,7 +38,7 @@ pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.co
 pip install -r requirements.txt
 ```
 ## Download require files
-1. Download MANO model from [Link](https://website-name.com](https://mano.is.tue.mpg.de/)
+1. Download MANO model from [Link]()
    unzip and copy the file `MANO_RIGHT.pkl` into `TOHGS/models/mano`
 2. Download object meshes file from [Link]()
    unzip and copy all of folders into `TOHGS/models/`
