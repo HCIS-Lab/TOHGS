@@ -11,7 +11,7 @@ conda create -n tohgs python=3.8
 conda activate tohgs
 ```
 
-## Install dependence
+## Install
 1. MANO
 ```
 cd manopth
@@ -33,4 +33,16 @@ cmake --build build
 ```
 pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py38_cu117_pyt201/download.html
 ```
+5. Other Python packages
+```
+pip install -r requirements.txt
+```
+## Download require files
+1. Download MANO model from [Link](https://website-name.com](https://mano.is.tue.mpg.de/)
+   unzip and copy the file `MANO_RIGHT.pkl` into `TOHGS/models/mano`
+2. Download object meshes file from [Link]()
+   unzip and copy all of folders into `TOHGS/models/`
+3. Download dataset from [Link]()
+   unzip and copy folder `task_oriented_grasps_dataset` into `TOHGS/`
+
 
