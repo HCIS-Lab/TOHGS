@@ -20,7 +20,6 @@ pip install .
 2. Install Pytorch, Pytorch3D and Kaolin
 ```
 pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
-pip install -r requirements.txt
 pip install fvcore
 pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py38_cu117_pyt201/download.html
 pip install kaolin==0.15.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.0.1_cu117.html
