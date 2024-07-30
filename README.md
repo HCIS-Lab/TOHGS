@@ -31,6 +31,7 @@ pip install -r requirements.txt
 4. PointNet++
 ```
 cd Pointnet2_PyTorch
+pip install -e .
 pip install pointnet2_ops_lib/.
 ```
 5. pointnet_lib
