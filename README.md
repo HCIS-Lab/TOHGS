@@ -33,7 +33,12 @@ pip install -r requirements.txt
 cd Pointnet2_PyTorch
 pip install pointnet2_ops_lib/.
 ```
-5. V-hacd
+5. pointnet_lib
+```
+cd pointnet_lib
+python setup.py install
+```
+6. V-hacd
 ```
 cd v-hacd
 cd app
