@@ -30,12 +30,14 @@ pip install -r requirements.txt
 ```
 4. PointNet++
 ```
+git clone https://github.com/erikwijmans/Pointnet2_PyTorch.git
 cd Pointnet2_PyTorch
 pip install -e .
 pip install pointnet2_ops_lib/.
 ```
 5. V-hacd
 ```
+git clone https://github.com/kmammou/v-hacd.git
 cd v-hacd
 cd app
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
