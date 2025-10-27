@@ -46,13 +46,21 @@ cmake --build build
 
 
 ## Download require files
-1. Download MANO model from [Link]()
+1. Regster and download MANO model from [Link](https://mano.is.tue.mpg.de/index.html)
    unzip and copy the file `MANO_RIGHT.pkl` into `TOHGS/models/mano`
-2. Download object meshes file from [Link]()
-   unzip and copy all of folders into `TOHGS/models/`
-3. Download dataset from [Link]()
-   unzip and copy folder `task_oriented_grasps_dataset` into `TOHGS/`
+2. Download object meshes file from [Link](https://huggingface.co/datasets/liuallen871219/TOHGS)
+   unzip meshes.zip and copy all of folders and files into `TOHGS/models/`
+3. Download dataset from [Link](https://huggingface.co/datasets/liuallen871219/TOHGS)
+   unzip task_oriented_grasps_dataset.zip and copy folder `task_oriented_grasps_dataset` into `TOHGS/`
+   
+## Acknowledgements
 
+This implementation is mainly based on:
+- [https://github.com/bradyz/cross_view_transformers](https://github.com/hwjiang1510/GraspTTA)
+- [https://github.com/valeoai/PointBeV](https://github.com/scenediffuser/Scene-Diffuser)
+- [https://github.com/hassony2/manopth](https://github.com/hassony2/manopth)
+
+Thanks to these great open-source implementations!
 
 ## Bibtex
 If you find this work helpful, please consider citing our paper:
