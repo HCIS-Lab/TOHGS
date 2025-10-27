@@ -57,7 +57,7 @@ cmake --build build
 
 This implementation is mainly based on:
 - [GraspTTA](https://github.com/hwjiang1510/GraspTTA)
-- [SceneDiffuser(https://github.com/scenediffuser/Scene-Diffuser)
+- [SceneDiffuser](https://github.com/scenediffuser/Scene-Diffuser)
 - [manopth](https://github.com/hassony2/manopth)
 
 Thanks to these great open-source implementations!
