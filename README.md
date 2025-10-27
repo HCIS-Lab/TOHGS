@@ -54,3 +54,14 @@ cmake --build build
    unzip and copy folder `task_oriented_grasps_dataset` into `TOHGS/`
 
 
+## Bibtex
+If you find this work helpful, please consider citing our paper:
+```bash
+@inproceedings{liu2025task,
+  title={Task-Oriented Human Grasp Synthesis via Context-and Task-Aware Diffusers},
+  author={Liu, An-Lun and Chao, Yu-Wei and Chen, Yi-Ting},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={10375--10385},
+  year={2025}
+}
+```
