@@ -56,9 +56,9 @@ cmake --build build
 ## Acknowledgements
 
 This implementation is mainly based on:
-- [https://github.com/bradyz/cross_view_transformers](https://github.com/hwjiang1510/GraspTTA)
-- [https://github.com/valeoai/PointBeV](https://github.com/scenediffuser/Scene-Diffuser)
-- [https://github.com/hassony2/manopth](https://github.com/hassony2/manopth)
+- [GraspTTA](https://github.com/hwjiang1510/GraspTTA)
+- [SceneDiffuser(https://github.com/scenediffuser/Scene-Diffuser)
+- [manopth](https://github.com/hassony2/manopth)
 
 Thanks to these great open-source implementations!
 
